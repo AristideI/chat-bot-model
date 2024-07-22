@@ -9,7 +9,7 @@ This repo currently contains the starter files.
 Clone repo and create a virtual environment
 
 ```
-$ git clone https://github.com/yves137/chatbot-backend.git
+$ git clone https://github.com/AristideI/chat-bot-model.git
 $ cd chatbot-backend
 $ python3 -m venv cbot
 $ . cbot/bin/activate
@@ -41,5 +41,5 @@ This will dump data.pth file. And then run
 the following command to test it in the console.
 
 ```
-$ (cbot) python chat.py
+$ (cbot) fastapi dev chat.py
 ```

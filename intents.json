@@ -8,39 +8,93 @@
         "How are you",
         "Is anyone there?",
         "Hello",
-        "Good day"
+        "Good day",
+        "Howdy",
+        "What's up?",
+        "Good morning",
+        "Good evening",
+        "Yo",
+        "Greetings"
       ],
       "responses": [
         "Hey :-)",
         "Hello, thanks for visiting",
         "Hi there, what can I do for you?",
-        "Hi there, how can I help?"
+        "Hi there, how can I help?",
+        "Hello! How can I assist you today?",
+        "Hi! How's it going?",
+        "Hey! What brings you here today?"
       ]
     },
     {
       "tag": "goodbye",
-      "patterns": ["Bye", "See you later", "Goodbye"],
+      "patterns": [
+        "Bye",
+        "See you later",
+        "Goodbye",
+        "Take care",
+        "Catch you later",
+        "Farewell",
+        "See you soon",
+        "Later",
+        "Have a good one",
+        "I'm out",
+        "Peace out"
+      ],
       "responses": [
         "See you later, thanks for visiting",
         "Have a nice day",
-        "Bye! Come back again soon."
+        "Bye! Come back again soon.",
+        "Goodbye! Have a great day!",
+        "Take care! See you next time!",
+        "Farewell! Hope to see you again soon."
       ]
     },
     {
       "tag": "thanks",
-      "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!"],
-      "responses": ["Happy to help!", "Any time!", "My pleasure"]
+      "patterns": [
+        "Thanks",
+        "Thank you",
+        "That's helpful",
+        "Thank's a lot!",
+        "Much appreciated",
+        "Thanks a bunch",
+        "Thanks so much",
+        "Thanks a million",
+        "I appreciate it",
+        "Thanks for your help"
+      ],
+      "responses": [
+        "Happy to help!",
+        "Any time!",
+        "My pleasure",
+        "You're welcome!",
+        "Glad I could help!",
+        "No problem at all!",
+        "You're welcome! Anything else I can assist with?"
+      ]
     },
     {
       "tag": "items",
       "patterns": [
         "Which items do you have?",
         "What kinds of items are there?",
-        "What do you sell?"
+        "What do you sell?",
+        "What products do you offer?",
+        "What can I buy here?",
+        "What do you have in stock?",
+        "What are your available items?",
+        "What merchandise do you have?",
+        "What goods do you offer?",
+        "What inventory do you carry?"
       ],
       "responses": [
         "We sell coffee and tea",
-        "We have coffee and tea"
+        "We have coffee and tea",
+        "Our main products are coffee and tea",
+        "You can buy coffee and tea here",
+        "We offer a selection of coffee and tea",
+        "Our store has a variety of coffee and tea products"
       ]
     },
     {
@@ -49,11 +103,22 @@
         "Do you take credit cards?",
         "Do you accept Mastercard?",
         "Can I pay with Paypal?",
-        "Are you cash only?"
+        "Are you cash only?",
+        "What payment methods do you accept?",
+        "Can I use my credit card?",
+        "Do you accept digital payments?",
+        "Can I pay with my debit card?",
+        "Do you accept VISA?",
+        "Is Paypal an option?",
+        "Can I use a bank transfer?"
       ],
       "responses": [
         "We accept VISA, Mastercard and Paypal",
-        "We accept most major credit cards, and Paypal"
+        "We accept most major credit cards, and Paypal",
+        "You can pay using VISA, Mastercard, or Paypal",
+        "We take credit cards and Paypal",
+        "You can use VISA, Mastercard, and Paypal for payment",
+        "We accept various payment methods including VISA, Mastercard, and Paypal"
       ]
     },
     {
@@ -61,11 +126,23 @@
       "patterns": [
         "How long does delivery take?",
         "How long does shipping take?",
-        "When do I get my delivery?"
+        "When do I get my delivery?",
+        "What's the delivery time?",
+        "When will my order arrive?",
+        "How long for shipping?",
+        "How long until I receive my order?",
+        "When should I expect my delivery?",
+        "What's your shipping time?",
+        "How fast is delivery?"
       ],
       "responses": [
         "Delivery takes 2-4 days",
-        "Shipping takes 2-4 days"
+        "Shipping takes 2-4 days",
+        "You should receive your order within 2-4 days",
+        "Our delivery time is 2-4 days",
+        "Expect your delivery in 2-4 days",
+        "Orders typically arrive within 2-4 days",
+        "Shipping usually takes between 2 and 4 days"
       ]
     },
     {
@@ -73,11 +150,164 @@
       "patterns": [
         "Tell me a joke!",
         "Tell me something funny!",
-        "Do you know a joke?"
+        "Do you know a joke?",
+        "Make me laugh",
+        "I need a laugh",
+        "Got any jokes?",
+        "Tell me a funny story",
+        "Can you share a joke?",
+        "I could use a good laugh",
+        "Entertain me with a joke"
       ],
       "responses": [
         "Why did the hipster burn his mouth? He drank the coffee before it was cool.",
-        "What did the buffalo say when his son left for college? Bison."
+        "What did the buffalo say when his son left for college? Bison.",
+        "Why don't scientists trust atoms? Because they make up everything!",
+        "Why did the scarecrow win an award? Because he was outstanding in his field.",
+        "Why don't skeletons fight each other? They don't have the guts.",
+        "What do you call fake spaghetti? An impasta.",
+        "Why did the bicycle fall over? Because it was two-tired."
+      ]
+    },
+    {
+      "tag": "health",
+      "patterns": [
+        "How can I stay healthy?",
+        "What are some health tips?",
+        "How do I maintain a healthy lifestyle?",
+        "What should I eat to stay healthy?",
+        "How often should I exercise?",
+        "What are the benefits of drinking water?",
+        "How much sleep do I need?",
+        "What are the signs of a healthy diet?",
+        "How do I improve my mental health?",
+        "What are some ways to reduce stress?",
+        "How do I boost my immune system?",
+        "What are the benefits of regular check-ups?",
+        "How do I avoid getting sick?",
+        "What are some common health issues?",
+        "How do I manage a balanced diet?",
+        "What are the best exercises for fitness?",
+        "How important is hydration?",
+        "What are the benefits of a balanced diet?",
+        "How can I improve my sleep quality?",
+        "What are some tips for mental wellness?"
+      ],
+      "responses": [
+        "To stay healthy, eat a balanced diet, exercise regularly, and get enough sleep.",
+        "Health tips include staying hydrated, eating plenty of fruits and vegetables, and avoiding processed foods.",
+        "Maintain a healthy lifestyle by exercising regularly, eating a balanced diet, and managing stress.",
+        "For a healthy diet, include a variety of foods, such as fruits, vegetables, lean proteins, and whole grains.",
+        "It's recommended to exercise at least 30 minutes a day, most days of the week.",
+        "Drinking water helps to keep your body hydrated, supports digestion, and improves skin health.",
+        "Adults need 7-9 hours of sleep per night for optimal health.",
+        "Signs of a healthy diet include stable energy levels, good digestion, and maintaining a healthy weight.",
+        "To improve mental health, practice mindfulness, stay connected with loved ones, and seek professional help if needed.",
+        "Reduce stress by practicing relaxation techniques, such as deep breathing, meditation, and exercise.",
+        "Boost your immune system by eating nutritious foods, exercising regularly, and getting enough sleep.",
+        "Regular check-ups can help detect health issues early and keep your health on track.",
+        "Avoid getting sick by washing your hands regularly, eating a balanced diet, and getting vaccinated.",
+        "Common health issues include colds, flu, high blood pressure, and diabetes. Regular check-ups can help prevent and manage these conditions.",
+        "Manage a balanced diet by including a variety of foods from all food groups and limiting processed foods.",
+        "The best exercises for fitness include a mix of cardio, strength training, and flexibility exercises.",
+        "Hydration is important for maintaining energy levels, supporting digestion, and keeping your skin healthy.",
+        "A balanced diet provides the nutrients your body needs to function properly and can prevent chronic diseases.",
+        "Improve your sleep quality by maintaining a regular sleep schedule, creating a relaxing bedtime routine, and avoiding caffeine before bed.",
+        "Tips for mental wellness include practicing mindfulness, staying active, connecting with others, and seeking help when needed."
+      ]
+    },
+    {
+      "tag": "sports",
+      "patterns": [
+        "What's the latest sports news?",
+        "Who won the game last night?",
+        "What are the upcoming sports events?",
+        "Tell me about the latest football scores",
+        "Who's leading the basketball league?",
+        "What's the schedule for the next cricket match?",
+        "Who are the top players in tennis right now?",
+        "Give me an update on the baseball standings",
+        "What's happening in the world of sports?",
+        "What are the highlights from the latest soccer matches?",
+        "Tell me about the recent sports highlights",
+        "What's the latest on the Olympics?",
+        "Who won the recent marathon?",
+        "What's the current ranking in Formula 1?",
+        "Can you give me an update on the latest sports scores?",
+        "What are the results of the latest golf tournament?",
+        "Who's the top scorer in the hockey league?",
+        "What's the latest news from the sports world?",
+        "Tell me about the latest sports updates",
+        "What's happening in the sports world today?"
+      ],
+      "responses": [
+        "The latest sports news includes updates from various sports like football, basketball, and cricket. What specific sport are you interested in?",
+        "Last night's game was thrilling! The final score was [Team A] 2 - 1 [Team B].",
+        "Upcoming sports events include the football league finals and the tennis Grand Slam. Don't miss them!",
+        "In football, the latest scores are: [Team A] 3 - 2 [Team B]. It was an exciting match!",
+        "The current leaders in the basketball league are the [Team Name]. They've been performing exceptionally well this season.",
+        "The next cricket match is scheduled for [Date], and it's going to be [Team A] vs. [Team B].",
+        "Top players in tennis right now include [Player A] and [Player B]. They're in great form!",
+        "The baseball standings are currently led by [Team Name], with a strong performance this season.",
+        "In the world of sports, there have been some incredible highlights, including [Event A] and [Event B].",
+        "Recent soccer match highlights include an amazing goal by [Player Name] in the [Team A] vs. [Team B] match.",
+        "The latest sports highlights feature some incredible moments, including [Event A] and [Event B].",
+        "The Olympics have been thrilling, with [Country Name] leading in the medal tally.",
+        "The recent marathon was won by [Runner Name] with an impressive time of [Time].",
+        "In Formula 1, the current ranking is led by [Driver Name], followed closely by [Driver Name].",
+        "The latest sports scores include [Team A] defeating [Team B] with a score of [Score].",
+        "The latest golf tournament was won by [Golfer Name], who played an exceptional game.",
+        "The top scorer in the hockey league is [Player Name], with an impressive number of goals.",
+        "The sports world is buzzing with news about [Event A] and [Event B].",
+        "Today's sports updates include some exciting news from [Sport A] and [Sport B].",
+        "In the sports world today, there's a lot happening, including [Event A] and [Event B]."
+      ]
+    },
+    {
+      "tag": "movies",
+      "patterns": [
+        "What's the latest movie release?",
+        "Can you recommend a good movie?",
+        "What's playing in theaters now?",
+        "Tell me about the new Marvel movie",
+        "Who won the Best Actor award this year?",
+        "What's a good movie to watch with family?",
+        "Can you suggest a comedy movie?",
+        "What's the plot of the latest blockbuster?",
+        "Who directed the new action movie?",
+        "What's the top movie on Netflix?",
+        "Which movies are nominated for the Oscars?",
+        "Tell me about the new animated film",
+        "What's the highest-grossing movie right now?",
+        "Can you recommend a thriller movie?",
+        "What's a good romantic movie?",
+        "Tell me about the latest horror movie",
+        "Who stars in the new drama movie?",
+        "What's the best sci-fi movie recently?",
+        "Can you recommend a classic film?",
+        "What's a good documentary to watch?"
+      ],
+      "responses": [
+        "The latest movie release is [Movie Name], and it's getting great reviews!",
+        "I recommend watching [Movie Name], it's a fantastic film!",
+        "Currently playing in theaters: [Movie A], [Movie B], and [Movie C].",
+        "The new Marvel movie, [Movie Name], features amazing action and stunning visuals.",
+        "The Best Actor award this year went to [Actor Name] for their performance in [Movie Name].",
+        "A great family movie to watch is [Movie Name]. It's fun for all ages!",
+        "For a good comedy, check out [Movie Name]. It's hilarious!",
+        "The plot of the latest blockbuster, [Movie Name], is about [Brief Plot Description].",
+        "[Director Name] directed the new action movie, [Movie Name].",
+        "The top movie on Netflix right now is [Movie Name].",
+        "Movies nominated for the Oscars include [Movie A], [Movie B], and [Movie C].",
+        "The new animated film, [Movie Name], is a delightful watch for both kids and adults.",
+        "The highest-grossing movie right now is [Movie Name].",
+        "For a thrilling experience, watch [Movie Name]. It's a great thriller!",
+        "A good romantic movie to watch is [Movie Name]. It's very touching.",
+        "The latest horror movie, [Movie Name], is really scary!",
+        "The new drama movie stars [Actor A] and [Actor B] in leading roles.",
+        "The best recent sci-fi movie is [Movie Name]. It's a must-watch!",
+        "I recommend watching the classic film [Movie Name]. It's timeless.",
+        "A good documentary to watch is [Documentary Name]. It's very informative and engaging."
       ]
     }
   ]

@@ -219,7 +219,8 @@
     {
       "tag": "sports",
       "patterns": [
-        "What's the latest sports news?",
+        " "Tell me a joke!",
+        "Tell me something funny!",",
         "Who won the game last night?",
         "What are the upcoming sports events?",
         "Tell me about the latest football scores",

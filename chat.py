@@ -10,6 +10,8 @@ from nltk_utils import (
     tokenize,
 )  # Ensure this import matches your project structure
 
+from fastapi.middleware.cors import CORSMiddleware
+
 device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 
 # Load intents and model
@@ -56,6 +58,14 @@ def get_response(msg):
 
 # FastAPI setup
 app = FastAPI()
+
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=["*"],  # Adjust this as needed
+    allow_credentials=True,
+    allow_methods=["*"],
+    allow_headers=["*"],
+)
 
 
 class ChatRequest(BaseModel):

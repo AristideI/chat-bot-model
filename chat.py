@@ -81,3 +81,9 @@ def chat(chat_request: ChatRequest):
     user_message = chat_request.message
     response = get_response(user_message)
     return ChatResponse(response=response)
+
+
+if __name__ == "__main__":
+    import uvicorn
+
+    uvicorn.run(app, host="0.0.0.0", port=8000)
